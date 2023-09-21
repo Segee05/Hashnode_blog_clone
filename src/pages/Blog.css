@@ -1,0 +1,144 @@
+.blog-container-right {
+    border: 1px solid #E2E8F0;
+    height: 200px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+.search_input_container {
+    border: 1px solid #99B2FA;
+    height: 60px;
+    width: 600px;
+    margin-left: 46px;
+    border-radius: 30px !important;
+
+}
+
+#basic-addon1 {
+    margin-left: 10px;
+}
+
+#basic-addon2 {
+    margin-right: 10px;
+}
+
+.search_input_container span,
+.search_input_container input {
+    border-radius: 100px;
+    background-color: white;
+    border: none;
+}
+
+.search_box {
+    display: inline-block !important;
+}
+
+.blog-container-left {
+    border: 1px solid #E2E8F0;
+    height: 200px;
+    width: 320px;
+    border-radius: 15px;
+}
+
+.blog-container-left-inner {
+    background-image: radial-gradient(#9198e5, white, white);
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.intro-hash {
+    color: #897BF5;
+}
+
+.blog-left-btn button:first-child {
+    width: 45%;
+    height: 40px;
+    border: none;
+    background-color: #634AF1;
+    color: white;
+    border-radius: 20px;
+}
+
+.blog-left-btn button:last-child {
+    width: 45%;
+    height: 40px;
+    border: 1px solid #E2E8F0;
+    background-color: white;
+    color: #717C8B;
+    border-radius: 20px;
+}
+
+.post_box img {
+    width: 230px;
+    height: 170px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.post_box button {
+    width: 25%;
+    height: 30px;
+    border: 1px solid #E2E8F0;
+    background-color: white;
+    color: #717C8B;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: 140px;
+}
+.personal-icon{
+    font-size: 20px;
+    margin: 5px;
+}
+.stronge-color{
+    color:#C44815;
+}
+
+.blog-container-right-main {
+    border: 1px solid #E2E8F0;
+    height: 300px;
+    width: 700px;
+    border-radius: 15px;
+    margin-bottom: 20px
+}
+.blogu img{
+    width: 13%;
+    height: 50px;
+    border-radius: 100px;
+}
+.post_box-main{
+    margin-left: -0px;
+}
+.noel-img img{
+    width: 95%;
+    margin-right: 25px;
+    margin-top: 80px;
+    border-radius:10px;
+
+}
+.blog-inner{
+    margin-left: -25px;
+}
+.blog_text{
+    width: 3000px;
+}
+.noelcserepy strong{
+    margin-top: -10px !important;
+}
+.tread_text{
+    color: #768499;
+}
+.left-inner{
+    /* background-image: radial-gradient(#9198e5, white, white); */
+    margin-top: 10px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.left-inner button{
+    background-color: white;
+    border: 1px solid #E2E8F0;
+    margin-bottom: 10px;
+    width: 70%;
+
+}

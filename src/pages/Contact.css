@@ -1,0 +1,209 @@
+.hashnode_icon img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+   margin-left: 570px;
+}
+.contact_container{
+    background-color: #F8FAFC;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+
+.form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .form-users{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+  }
+.form-users-container{
+    width: 700px;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+  .form h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .form-users h2{
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center; 
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group-users{
+    margin-bottom: 20px;
+
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .form-group-users label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 30%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+
+  .form-group-users input {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+
+  .form-group span {
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+  }
+  .form-group-users span{
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .form button, .form-users button {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    background-color: #2563EB;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form button:hover {
+    background-color: #2563EB;
+    /* color: #000000; */
+    border-radius: 50px;
+  }
+  .form-users button:hover{
+    background-color: #000000;
+    border-radius: 50px;
+
+  }
+  .register_side{
+    width: 90%;
+    /* margin: auto; */
+    margin-top: 160px;
+    font-style: italic;
+    font-size: larger;
+    margin-left: -70px;
+  }
+  .register_side img{
+    width: 30%;
+    margin-left: 20px;
+    border-radius: 100px;
+    margin-top: -20px;
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 320px) {
+    .hashnode_icon img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 20%;
+       margin-left: 300px;
+    }
+
+    .form-group-users input {
+        margin-left: -100px;
+        width: 85%;
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+      }
+
+      .contact_container{
+        display: inline-block;
+        
+      }
+
+      .form-group-users label{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: -90px;
+    
+      }
+
+      .form button, .form-users button {
+        display: block;
+        width: 30%;
+        margin-left: -100px;
+        padding: 10px;
+        background-color: #2563EB;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .register_side{
+        width: 650px;
+        margin: auto;
+        margin-top: 60px;
+        font-style: italic;
+        font-size: larger;
+        margin-left: 70px;
+      }
+      .register_side img{
+        width: 20%;
+        margin-left: 20px;
+        border-radius: 100px;
+        margin-top: -20px;
+      }
+      .ceo-side{
+        margin-top: 50px;
+      }
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  }

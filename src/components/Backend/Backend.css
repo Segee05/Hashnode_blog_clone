@@ -1,0 +1,197 @@
+.backend{
+    width: 240px;
+    background-color: #002950;
+    min-height: 100vh;
+    
+}
+.dashboard-links{
+    display: block;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #002950;
+    border-bottom: 1px solid #c9c8c8;
+    width: 240px;
+    margin-left: -39px;
+}
+.dash-icons{
+    font-size: 70px;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 220px;
+    /* width: 100%; */
+}
+.backend-container{
+    display: flex;
+}
+.report{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-left: 26px;
+    column-gap: 10px;
+
+}
+.total-product{
+    background-color: #f2f2f2; 
+    width: 360px;
+    height: 150px; 
+    padding: 10px; 
+}
+.total-product:nth-child(1) {
+    background-color: #FFA07A; 
+    
+}
+
+.total-product:nth-child(2) {
+    background-color: #ADD8E6; 
+}
+
+.total-product:nth-child(3) {
+    background-color: #90EE90; 
+}
+.createproduct-section{
+    display: flex;
+}
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+/* create product page */
+  .form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .form-users{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+  }
+.form-users-container{
+    width: 700px;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+  .form h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .form-users h2{
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center; 
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group-users{
+    margin-bottom: 20px;
+
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .form-group-users label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+
+  .form-group-users input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+
+  .form-group span {
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+  }
+  .form-group-users span{
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .form button, .form-users button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form button:hover {
+    background-color: #000000;
+    /* color: #000000; */
+    border-radius: 50px;
+  }
+  .form-users button:hover{
+    background-color: #000000;
+    border-radius: 50px;
+
+  }
+  .createproduct-form{
+    width: 70%;
+    margin: auto;
+  }
+  /* create users */
+  .createuser{
+    display: flex;
+  }
+  .users-users{
+    display: flex;
+  }
+  .users-table{
+    width: 1100px;
+  }
+  .users-table tr{
+    width: 200px !important;
+  }
+  .users-table td{
+    width: 300px;
+  }
+

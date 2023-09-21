@@ -1,0 +1,148 @@
+#navBar_conta{
+    width: 95%;
+    margin: auto;
+    list-style: none;
+}
+
+#navBar_conta img{
+    width: 70%;
+}
+.nav-line{
+    margin-top: 10px;
+    border-bottom: 1px solid #E8EDF3;
+}
+
+.navigation-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center; 
+}
+
+.center-col {
+    text-align: center;
+}
+#second_col_{
+    column-gap: 30px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bolder;
+   color: #647081;
+}
+#second_col_ small{
+    background-color: #6449F0;
+    color: white;
+    font-size: small;
+    border-radius: 15px;
+    padding: 5px;
+}
+#thrid_col_{
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    column-gap: 30px;
+    margin-left: -60px; 
+}
+
+#thrid_col_  button{
+    background-color: #2563EB;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+
+}
+.nav_icons{
+    width: 50px;
+    height: 40px;
+}
+.notificantion-ring{
+    position: absolute;
+    background-color: #2563EB;
+    margin-top: -6px;
+    margin-left: -15px;
+    color: white;
+    font-size: small;
+    border-radius: 20px;
+    padding: 1px;
+    width: 20px;
+}
+#drop-dowmnow{
+    position: absolute;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: -230px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+}
+#drop-dowmnow h4{
+    font-size: larger;
+    font-weight: 800;
+    margin-top: 10px;
+}
+#drop-dowmnow button{
+width: 200px;
+color: #2563EB;
+background-color: white;
+border: 1px solid blue;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #navBar_conta{
+        width: 95%;
+        margin: auto;
+        list-style: none;
+    }
+
+    #navBar_conta img {
+        display: none;
+    }
+
+    .write-nav-icon{
+        display: none;
+    }
+
+    #thrid_col_{
+        margin-left: 200px;
+    }
+
+}
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+    #thrid_col_{
+        column-gap: 30px;
+        margin-left: -60px; 
+    }
+   
+    
+  
+  }
+    
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
+
+
